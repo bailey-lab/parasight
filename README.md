@@ -1,9 +1,9 @@
 # parasight
 
-Installation should be fairly easy—the html help document has general install
-instructions towards the end. I definitely recommend UNIX over running it on
-Windows. If you have no choice however, I have managed to iron out most of the
-Windows inadequacies/bugs.
+Installation should be fairly easy—the website has general install instructions
+towards the end. I definitely recommend UNIX over running it on Windows.
+However, if you have no choice, I have managed to iron out most of the Windows
+inadequacies/bugs.
 
 To install the program and the example script:
 
@@ -14,13 +14,13 @@ To install the program and the example script:
    2. For MS Windows, try [ActiveState
       Perl](http://www.activestate.com/Products/ActivePerl/). They have already
       compiled a binary so you don't.
-2. Uncompress the file `parasight_v7.4.zip` file creating the directory
-   `parasight_v7.4`.
-3. Directly within the `parasight_v7.4` directory is the parasight executable,
-   it should either be moved or linked into your bin path for ease of use. On
-   windows machines that have installed ActiveState the simplest solution is to
-   place it in the Perl bin directory (usually `C:\Perl\bin`). Parasight code no
-   longer requires additional modules except for Tk.
+2. You may download the program from the website and uncompress the file or
+   clone the repository.
+3. Directly within the directory is the parasight executable, it should either
+   be moved or linked into your bin path for ease of use. On windows machines
+   that have installed ActiveState the simplest solution is to place it in the
+   Perl bin directory (usually `C:\Perl\bin`). Parasight code no longer
+   requires additional modules except for Tk.
 4. Check to see if parasight runs by typing parasight at a command line. You
    should get a summary of options.
 5. If it doesn't work you may need to fix the path or install any modules such
@@ -36,6 +36,6 @@ To install the program and the example script:
    ideas of what parasight can do and how to go about getting parasight doing
    it.
 
-Enjoy, Jeff
+Enjoy, 
 
 [@JeffAndBailey](https://github.com/JeffAndBailey)
