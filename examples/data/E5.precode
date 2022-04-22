@@ -1,0 +1,12 @@
+
+	$opt{"filename_on"}=0;
+	$opt{"seq_space_wrap"}=70;
+	$opt{"text_offset"}=320;
+	$opt{"text_offset_h"}=15;
+	$opt{"text_color"}="red";	
+	$opt{"text_fontsize"}=12;	
+	$opt{"text_text"}= "This is miropeats standard output within and between two clones.";
+	&reshowNredraw; &update; print "EXAMPLE COMPLETE!\n";
+	sleep 5;
+	
+	

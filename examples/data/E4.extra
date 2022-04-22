@@ -1,0 +1,244 @@
+seq	begin	end	label	color	offset	width	orient	repeat:family	divergence	empty
+C1	1	1	SINES 	white	-12	4		SINES		
+C1	1	1	LINES 	white	-17	4		LINES		
+C1	1	1	SIMPLE/LOW 	white	-21	4		SIMPLE/LOW		
+C1	1	1	OTHER 	white	-26	4		OTHER		
+C1	1	1	<3% 	white	4	4		<3%t		
+C1	1	1560		medium orchid	-17	6		L1P:LINE/L1	7.2	
+C1	1561	3551		medium orchid	-17	6		L1P:LINE/L1	3.8	
+C1	3550	5090		medium orchid	-17	6		L1P:LINE/L1	14	
+C1	5126	5914		medium orchid	-17	6		L1M4:LINE/L1	21.9	
+C1	5915	6354		cyan	-26	6		MSTB2:LTR/MaLR	19.7	
+C1	6358	7306		cyan	-26	6		MLT-int:LTR/MaLR	26.6	
+C1	7294	7986		cyan	-26	6		MSTB2-int:LTR/MaLR	25	
+C1	8082	8261		cyan	-26	6		MSTB2-int:LTR/MaLR	19.4	
+C1	8311	8705		cyan	-26	6		MSTB2:LTR/MaLR	15.4	
+C1	8707	10216		medium orchid	-17	6		L1M4:LINE/L1	23.8	
+C1	12311	12419		medium orchid	-17	6		L1PA7:LINE/L1	1.8
+C1	12311	12419		hotpink	7	6		L1PA7:LINE/L1	1.8
+C1	12482	12580		red	-21	6		A-rich:Low_complexity	32.3
+C1	13136	13284		blue	-12	6		AluSp:SINE/Alu	10.1
+C1	13289	13411		cyan	-26	6		MSTA:LTR/MaLR	11.4
+C1	13864	14030		medium orchid	-17	6		HAL1:LINE/L1	34.7
+C1	14161	14844		medium orchid	-17	6		L1M4:LINE/L1	25.3
+C1	14962	14986		red	-21	6		(TTG)n:Simple_repeat	8
+C1	15336	15713		cyan	-26	6		MER68:LTR/ERV1	19.3
+C1	15768	15943		red	-21	6		polypyrimidine:Low_complexity	23.9
+C1	15949	16056		medium orchid	-17	6		L1PA8:LINE/L1	10.2
+C1	16340	16712		cyan	-26	6		THE1A:LTR/MaLR	9.7
+C1	17521	18251		medium orchid	-17	6		L1MEd:LINE/L1	33.2
+C1	18385	18719		blue	-12	6		AluSq:SINE/Alu	11.6
+C1	19493	19591		blue	-12	6		AluSg/x:SINE/Alu	17.2
+C1	19602	19920		medium orchid	-17	6		L1PA15:LINE/L1	13.5
+C1	19919	20068		medium orchid	-17	6		L1:LINE/L1	21.9
+C1	20069	20113		red	-21	6		(TG)n:Simple_repeat	11.1
+C1	20114	20208		medium orchid	-17	6		L1:LINE/L1	21.9
+C1	20256	20817		light salmon	-26	6		MER6:DNA/MER2_type	13.3
+C1	20854	21147		blue	-12	6		AluJb:SINE/Alu	18.7
+C1	22106	22270		blue	-12	6		AluSg/x:SINE/Alu	10.9
+C1	22275	22306		red	-21	6		(CAAAA)n:Simple_repeat	9.4
+C1	22930	22967		red	-21	6		AT_rich:Low_complexity	10.5
+C1	24283	24474		medium orchid	-17	6		L1PA15:LINE/L1	12
+C1	24479	24842		medium orchid	-17	6		L1PB1:LINE/L1	10.7
+C1	24852	25025		red	-21	6		(TA)n:Simple_repeat	21.8
+C1	25026	25567		medium orchid	-17	6		L1PB1:LINE/L1	8.7
+C1	25619	26239		medium orchid	-17	6		L1PB1:LINE/L1	22.1
+C1	26243	26454		medium orchid	-17	6		L1PB1:LINE/L1	24.1
+C1	26604	32672		medium orchid	-17	6		L1PA3:LINE/L1	4
+C1	32677	33058		medium orchid	-17	6		L1PB1:LINE/L1	24.1
+C1	33242	33588		medium orchid	-17	6		L1PB1:LINE/L1	27.9
+C1	33650	34366		medium orchid	-17	6		L1PB1:LINE/L1	21.6
+C1	34367	34678		blue	-12	6		AluSc:SINE/Alu	12.5
+C1	34679	34709		medium orchid	-17	6		L1PB1:LINE/L1	21.6
+C1	34710	35013		blue	-12	6		AluSg:SINE/Alu	12.5
+C1	35014	36225		medium orchid	-17	6		L1PB1:LINE/L1	21.6
+C1	36979	37146		medium orchid	-17	6		L1ME:LINE/L1	24.4
+C1	37553	37837		blue	-12	6		AluSg:SINE/Alu	18.9
+C1	38341	38506		blue	-12	6		AluSq:SINE/Alu	12.1
+C1	38575	38613		red	-21	6		AT_rich:Low_complexity	7.7
+C1	38685	38784		cyan	-26	6		MLT1F:LTR/MaLR	22
+C1	38996	39034		light salmon	-26	6		MER5B:DNA/MER1_type	17.9
+C1	39044	39161		cyan	-26	6		LTR16A1:LTR/ERVL	33
+C1	41231	41300		red	-21	6		CT-rich:Low_complexity	12.9
+C1	41405	41709		blue	-12	6		AluY:SINE/Alu	7.5
+C1	41917	41947		red	-21	6		AT_rich:Low_complexity	3.2
+C1	41948	42234		blue	-12	6		AluSx:SINE/Alu	9.8
+C1	42410	42677		medium orchid	-17	6		L1ME:LINE/L1	28.7
+C1	42911	43213		blue	-12	6		AluSx:SINE/Alu	12.9
+C1	43321	43442		blue	-12	6		MIR:SINE/MIR	22.8
+C1	43607	43959		cyan	-26	6		MLT2A1:LTR/ERVL	14.4
+C1	44054	44209		cyan	-26	6		MLT2A2:LTR/ERVL	12.8
+C1	44214	44586		cyan	-26	6		THE1-int:LTR/MaLR	14.2
+C1	44639	47219		medium orchid	-17	6		L1PA6:LINE/L1	5.8
+C1	47415	53852		medium orchid	-17	6		L1PA5:LINE/L1	8.6
+C1	53861	54385		cyan	-26	6		THE1-int:LTR/MaLR	13.5
+C1	54397	54459		medium orchid	-17	6		L1:LINE/L1	16.9
+C1	54460	54829		cyan	-26	6		MLT1A:LTR/MaLR	21.1
+C1	54830	54937		medium orchid	-17	6		L1:LINE/L1	16.9
+C1	54933	55283		medium orchid	-17	6		L1M4:LINE/L1	27
+C1	55284	55598		blue	-12	6		AluSp:SINE/Alu	12.4
+C1	55599	55875		medium orchid	-17	6		L1M4:LINE/L1	27
+C1	56021	56302		cyan	-26	6		MLT2B3:LTR/ERVL	20.7
+C1	57045	57894		medium orchid	-17	6		L1M4:LINE/L1	23.8
+C1	57955	58247		blue	-12	6		AluJo:SINE/Alu	17.4
+C1	58439	59164		medium orchid	-17	6		L1M4:LINE/L1	22.9
+C1	59181	59562		cyan	-26	6		LTR8:LTR/ERV1	19.4
+C1	59537	59649		cyan	-26	6		LTR8:LTR/ERV1	18.6
+C1	59694	59970		cyan	-26	6		LTR8:LTR/ERV1	15.5
+C1	60100	60327		medium orchid	-17	6		L1M3a:LINE/L1	26.3
+C1	60346	60373		red	-21	6		AT_rich:Low_complexity	7.1
+C1	61184	61210		red	-21	6		AT_rich:Low_complexity	0
+C1	61211	61496		blue	-12	6		AluJo:SINE/Alu	18.9
+C1	61657	61686		red	-21	6		AT_rich:Low_complexity	0
+C1	61988	62304		blue	-12	6		AluSx:SINE/Alu	13.9
+C1	63628	63662		red	-21	6		AT_rich:Low_complexity	5.7
+C1	64087	64164		red	-21	6		AT_rich:Low_complexity	11.5
+C1	64187	64512		blue	-12	6		AluSq:SINE/Alu	11.3
+C1	64689	64978		blue	-12	6		AluSq:SINE/Alu	11
+C1	65014	65149		blue	-12	6		FLAM_C:SINE/Alu	16.9
+C1	65861	65926		red	-21	6		(CATATA)n:Simple_repeat	28.8
+C1	67447	67485		red	-21	6		AT_rich:Low_complexity	7.7
+C1	67521	67820		blue	-12	6		AluJo:SINE/Alu	19.7
+C1	68070	68137		red	-21	6		AT_rich:Low_complexity	10.3
+C1	68403	68697		blue	-12	6		AluSx:SINE/Alu	12.9
+C1	68699	68723		red	-21	6		AT_rich:Low_complexity	0
+C1	69365	69488		blue	-12	6		AluSg/x:SINE/Alu	12.9
+C1	69653	69824		blue	-12	6		AluJb:SINE/Alu	18.7
+C1	69825	70144		blue	-12	6		AluSx:SINE/Alu	10
+C1	70145	70287		blue	-12	6		AluJb:SINE/Alu	18.7
+C1	70500	70827		blue	-12	6		AluJb:SINE/Alu	15.8
+C1	71039	71119		medium orchid	-17	6		L2:LINE/L2	32.1
+C1	72019	72049		red	-21	6		AT_rich:Low_complexity	3.2
+C1	73197	73382		blue	-12	6		MIR:SINE/MIR	29.6
+C1	74373	74399		red	-21	6		AT_rich:Low_complexity	3.7
+C1	74974	75005		red	-21	6		AT_rich:Low_complexity	6.2
+C1	75816	75836		red	-21	6		AT_rich:Low_complexity	0
+C1	75850	76145		blue	-12	6		AluSg:SINE/Alu	9.1
+C1	76456	76531		red	-21	6		AT_rich:Low_complexity	5.3
+C1	76593	76973		blue	-12	6		AluY:SINE/Alu	14.2
+C1	79081	79506		cyan	-26	6		MER61B:LTR/ERV1	16.2
+C1	80690	80917		light salmon	-26	6		MER7D:DNA/MER2_type	16.3
+C1	80918	81217		blue	-12	6		AluSx:SINE/Alu	12.3
+C1	81218	81270		light salmon	-26	6		MER7D:DNA/MER2_type	16.3
+C1	81428	81731		blue	-12	6		AluSc:SINE/Alu	10.5
+C1	82150	82264		medium orchid	-17	6		L1MC2:LINE/L1	13
+C1	82275	82683		medium orchid	-17	6		L1MC2:LINE/L1	15.7
+C1	82817	82992		medium orchid	-17	6		L1MC2:LINE/L1	14.2
+C1	85204	85533		blue	-12	6		AluY:SINE/Alu	7.9
+C1	85574	88125		medium orchid	-17	6		L1MA8:LINE/L1	14.1
+C1	88405	88791		cyan	-26	6		THE1C:LTR/MaLR	16.8
+C1	89637	89846		medium orchid	-17	6		L1M4:LINE/L1	26.2
+C1	90224	90281		red	-21	6		AT_rich:Low_complexity	8.6
+C1	90590	90815		cyan	-26	6		LTR55:LTR/ERV	13.3
+C1	91755	91782		red	-21	6		AT_rich:Low_complexity	3.6
+C1	91814	91999		blue	-12	6		AluJb:SINE/Alu	21.1
+C1	92000	92025		red	-21	6		(TTTTG)n:Simple_repeat	3.9
+C1	92026	92141		blue	-12	6		AluJb:SINE/Alu	21.1
+C1	92993	93268		blue	-12	6		AluSx:SINE/Alu	12.7
+C1	93662	93975		blue	-12	6		AluSx:SINE/Alu	13.1
+C1	94644	94950		blue	-12	6		AluJb:SINE/Alu	17.6
+C1	96244	96581		blue	-12	6		AluJb:SINE/Alu	16
+C1	98728	98789		light salmon	-26	6		Tigger2:DNA/MER2_type	12.9
+C1	98829	98990		light salmon	-26	6		MER8:DNA/MER2_type	24.1
+C1	99886	99913		red	-21	6		AT_rich:Low_complexity	3.6
+C1	100451	100776		blue	-12	6		AluSx:SINE/Alu	19
+C1	101126	101150		red	-21	6		AT_rich:Low_complexity	4
+C1	101547	101961		medium orchid	-26	6		TAR1:Satellite/telo	12.8
+C1	102115	102271		red	-21	6		(TTAGGG)n:Simple_repeat	21
+C1	102272	102327		red	-21	6		(TTGGGG)n:Simple_repeat	17.9
+C1	102329	102361		red	-21	6		(TTAGGG)n:Simple_repeat	3
+C1	102436	103166		medium orchid	-17	6		L1P:LINE/L1	24.5
+C1	103258	103454		blue	-12	6		AluSp:SINE/Alu	16.2
+C1	103634	104124		medium orchid	-17	6		L1:LINE/L1	18.5
+C1	104146	104448		medium orchid	-17	6		L1P:LINE/L1	22.4
+C1	104990	105135		medium orchid	-17	6		L1:LINE/L1	30.8
+C1	105305	105686		medium orchid	-17	6		L1:LINE/L1	17.8
+C1	106077	107137		medium orchid	-17	6		L1PBa:LINE/L1	14.5
+C1	107166	108417		green	-9	6		SVA:Other	9
+C1	108424	108763		medium orchid	-17	6		L1PBa:LINE/L1	18.5
+C1	108800	109117		medium orchid	-17	6		L1PBa:LINE/L1	19.8
+C1	109886	110014		blue	-12	6		AluY:SINE/Alu	7
+C1	110513	110606		medium orchid	-17	6		L2:LINE/L2	35.1
+C1	110956	111041		cyan	-26	6		MLT1B:LTR/MaLR	27.9
+C1	111465	111784		blue	-12	6		AluSq:SINE/Alu	10.6
+C1	111927	111958		red	-21	6		AT_rich:Low_complexity	9.4
+C1	111959	112111		blue	-12	6		AluJo:SINE/Alu	13.7
+C1	112369	112672		blue	-12	6		AluSx:SINE/Alu	15.8
+C1	112964	113232		blue	-12	6		AluSx:SINE/Alu	13.8
+C1	113245	113277		red	-21	6		AT_rich:Low_complexity	3
+C1	114132	114250		red	-21	6		(CAAT)n:Simple_repeat	25.2
+C1	114183	114353		red	-21	6		(TCTA)n:Simple_repeat	21.6
+C1	114355	114481		blue	-12	6		FLAM_A:SINE/Alu	22.1
+C1	114492	114660		red	-21	6		(TCTA)n:Simple_repeat	18.9
+C1	114665	114732		medium orchid	-17	6		L1MB5:LINE/L1	17.6
+C1	114783	114897		blue	-12	6		AluJo:SINE/Alu	13
+C1	114982	115179		blue	-12	6		AluJo:SINE/Alu	13.6
+C1	115209	115341		medium orchid	-17	6		L1MB5:LINE/L1	20.3
+C1	118175	118438		cyan	-26	6		MLT1B:LTR/MaLR	24.2
+C1	118830	119150		cyan	-26	6		MLT1J:LTR/MaLR	27.7
+C1	120659	120771		cyan	-26	6		MLT1E2:LTR/MaLR	23
+C1	121410	121624		medium orchid	-17	6		L1M3:LINE/L1	19.3
+C1	121820	122150		blue	-12	6		AluY:SINE/Alu	7.5
+C1	123452	123757		cyan	-26	6		MLT1E2:LTR/MaLR	24.5
+C1	123857	123930		cyan	-26	6		MLT1E2:LTR/MaLR	13.5
+C1	123996	124095		medium orchid	-17	6		L1MB3:LINE/L1	27
+C1	124101	124283		medium orchid	-17	6		L1MA4:LINE/L1	17.3
+C1	124297	124916		medium orchid	-17	6		L1MA4:LINE/L1	17.1
+C1	124919	125024		blue	-12	6		FRAM:SINE/Alu	22.6
+C1	125034	125312		blue	-12	6		AluY:SINE/Alu	4.3
+C1	125349	125380		red	-21	6		A-rich:Low_complexity	15.6
+C1	125407	125695		medium orchid	-17	6		L1MA4:LINE/L1	16.6
+C1	125722	125940		blue	-12	6		AluY:SINE/Alu	6.4
+C1	126121	126286		medium orchid	-17	6		L1MA4:LINE/L1	16.3
+C1	126626	126667		red	-21	6		AT_rich:Low_complexity	9.5
+C1	126801	126971		blue	-12	6		AluJb:SINE/Alu	23.4
+C1	127026	127081		red	-21	6		(TA)n:Simple_repeat	16.1
+C1	130969	131015		red	-21	6		A-rich:Low_complexity	34
+C1	131163	131330		blue	-12	6		AluSg/x:SINE/Alu	25.6
+C1	131705	131734		red	-21	6		AT_rich:Low_complexity	6.7
+C1	132005	132152		medium orchid	-17	6		L1PA7:LINE/L1	8.8
+C1	132236	132295		medium orchid	-17	6		L1PA7:LINE/L1	1.7
+C1	132236	132295		hotpink	7	6		L1PA7:LINE/L1	1.7
+C1	132378	132687		blue	-12	6		AluJb:SINE/Alu	17.1
+C1	132949	133335		medium orchid	-17	6		L1MA5:LINE/L1	16
+C1	133361	134450		medium orchid	-17	6		L1MA5:LINE/L1	17.1
+C1	134581	135410		medium orchid	-17	6		L1MA5:LINE/L1	16.5
+C1	135559	135861		blue	-12	6		AluSq:SINE/Alu	14.2
+C1	136185	136216		red	-21	6		AT_rich:Low_complexity	6.2
+C1	136217	136298		light salmon	-26	6		MER5A:DNA/MER1_type	28.1
+C1	138899	139222		blue	-12	6		AluSp:SINE/Alu	13.6
+C1	139651	139773		cyan	-26	6		LTR48B:LTR/ERV1	30.1
+C1	139905	140293		cyan	-26	6		MLT2A1:LTR/ERVL	11.3
+C1	140606	140999		cyan	-26	6		MLT2A1:LTR/ERVL	9.4
+C1	141006	143534		cyan	-26	6		HERVL-A1:LTR/ERVL	9.8
+C1	143529	144048		cyan	-26	6		HERVL-A1:LTR/ERVL	11.9
+C1	144038	144303		cyan	-26	6		HERVL-A1:LTR/ERVL	11.3
+C1	144304	144812		cyan	-26	6		MLT2A1:LTR/ERVL	11
+C1	150349	150496		medium orchid	-17	6		L1PA4:LINE/L1	5.4
+C1	150811	151013		medium orchid	-17	6		L1PA4:LINE/L1	5.9
+C1	151927	152132		cyan	-26	6		MLT1D:LTR/MaLR	27.7
+C1	152936	153638		cyan	-26	6		MER4D:LTR/ERV1	20.8
+C1	161081	161252		red	-21	6		GA-rich:Low_complexity	37.2
+C1	161298	161804		medium orchid	-17	6		L1M4:LINE/L1	29
+C1	163244	163318		cyan	-26	6		MLT1C:LTR/MaLR	20
+C1	164932	165250		blue	-12	6		AluYb8:SINE/Alu	12.8
+C1	165830	166164		medium orchid	-17	6		L1MB8:LINE/L1	28.7
+C1	169254	169306		red	-21	6		polypyrimidine:Low_complexity	24.5
+C1	169307	169482		red	-21	6		CT-rich:Low_complexity	30.7
+C1	169578	169877		red	-21	6		CT-rich:Low_complexity	26
+C1	169852	170028		red	-21	6		polypyrimidine:Low_complexity	41.8
+C1	170478	170647		blue	-12	6		AluYb8:SINE/Alu	17.6
+C1	170888	170922		red	-21	6		A-rich:Low_complexity	22.9
+C1	172853	172885		red	-21	6		AT_rich:Low_complexity	15.2
+C1	174826	175193		cyan	-26	6		THE1B:LTR/MaLR	12.2
+C1	176735	176761		red	-21	6		AT_rich:Low_complexity	3.7
+C1	177531	177565		red	-21	6		AT_rich:Low_complexity	11.4
+C1	177575	177595		red	-21	6		AT_rich:Low_complexity	0
+C1	178637	178782		cyan	-26	6		LTR49:LTR/ERV1	18.5
+C1	180982	181023		red	-21	6		AT_rich:Low_complexity	11.9
+C1	181988	182289		blue	-12	6		AluSq:SINE/Alu	16.2
+C1	185395	185503		cyan	-26	6		MSTB2:LTR/MaLR	18.4
+C1	185901	185942		red	-21	6		AT_rich:Low_complexity	7.1
+C1	186633	186761		medium orchid	-17	6		L1MEc:LINE/L1	24
+C1	187030	187049		red	-21	6		(TCTCCC)n:Simple_repeat	0
+C1	187063	187378		green	-9	6		SVA:Other	3.2

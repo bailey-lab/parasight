@@ -1,0 +1,19 @@
+	#
+	$opt{"text_offset"}=120;
+	$opt{"text_color"}="red";	
+	$opt{"text_fontsize"}=12;
+	$opt{"graph_scale_on"}=1;
+	$opt{"graph1_on"}=1;
+	$opt{"graph2_on"}=1;
+	$opt{"graph2_label_on"}=1;
+	$opt{"graph2_min"}=0;
+	$opt{"graph2_max"}=50;
+	
+	$opt{"text_text"}= "The red graph show GC content across sequence C1\n";
+	$opt{"text_text"}.="(5 kb moving windows)\n\n";
+	$opt{"text_text"}.="The blue graph is a measure called read depth.";
+	&reshowNredraw; &update; print "EXAMPLE COMPLETE!\n";
+	
+	
+	sleep 5; #sleep to pause before going to next example
+

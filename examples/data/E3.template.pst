@@ -1,0 +1,584 @@
+OPTION FILE   option=>value
+alignment_col=>28
+# [integer] column for query (first pairwise position) sequence alignment
+alignment_col2=>29
+# [integer] column for subject (second pairwise position) sequence alignment
+alignment_wrap=>30
+# [integer] line width in characters for alignment word wrap
+arrange=>oneperline
+# [oneperline|stagger|vscale|cscale] arranges sub(jects) when subs are turned on
+arrange_file=>
+arrangesub=>stagger
+arrangesub_stagger_spacer=>40000
+# [integer] bp spacing for stagger arrange subs placed on the same line
+color=>None
+colorsub=>None
+colorsub_hitcond_col=>34
+# [integer] column against which to test conditional statements in pairwise data (does not work on extras or graphs)
+colorsub_hitcond_tests=>purple if <2;red if < 0.99; grey if < 0.98
+# [fake code] conditional statement to color pairwise hits (format: color [=<>] value;)
+execute=>widget
+# [command] to execute on Control-Shift-Click Left Button
+execute2=>widget
+# [command] to execute on Control-Shift-Click Middle Button
+execute2_array=>m
+# [e|m] extra or pairwise array to use in execute2 command
+execute2_col=>2
+# [integer] column to find value to replace {} occurance(s) within execute2 command
+execute2_desc=>nedit2
+# [text] description to display in right-click menu for execute2 command
+execute3=>widget
+# [command] to execute on Control-Shift-Click Right Button
+execute3_array=>m
+# [e|m] extra or pairwise array to use in execute3 command
+execute3_col=>3
+# [integer] column to find value to replace {} occurance(s) within execute3 command
+execute3_desc=>widget
+# [text] description to display in right-click menu for execute3 command
+execute4=>widget
+# [command] to execute from within right-click menu only
+execute4_array=>m
+# [e|m] extra or pairwise array to use in execute4 command
+execute4_col=>4
+# [integer] column to find value to replace {} occurance(s) within execute4 command
+execute4_desc=>nedit4
+# [text] description to display in right-click menu for execute command
+execute_array=>e
+# [e|m] extra or pairwise array to use in execute command
+execute_col=>1
+# [integer] column to find value to replace {} occurance(s) within execute command
+execute_desc=>nedit1
+# [text] description to display in right-click menu for execute command
+extra_arrow_diag=>5
+# [integer] distance from point of arrow to wing of arrow
+extra_arrow_on=>1
+# [0|1] toggles arrows for extras off and on
+extra_arrow_para=>5
+# [integer] distance from point of arrow along the line
+extra_arrow_perp=>4
+# [integer] distance from base on line to wing of arrow
+extra_color=>purple
+# [color] default for extra object
+extra_label_col=>8
+# [integer] column to use for extra labels
+extra_label_col_pattern=>
+# [regular expression] pattern to match and extract with parentheses for extra labels
+extra_label_color=>black
+# [color] for extra labels
+extra_label_offset=>2
+# [integer] horizontal offset for extra labels
+extra_label_on=>1
+# [0|1] toggles the text label for extras off and on
+extra_label_size=>6
+# [integer] font size (in points) for extra labels
+extra_label_test_col=>
+# [integer] column to test for a pattern--if pattern matched then extra not drawn
+extra_label_test_pattern=>
+# [regular expression] pattern to match for excluding the drawing of extra
+extra_offset=>-4
+# [integer] default vertical offset of extra object
+extra_on=>1
+# [0|1] toggles off and on the display of extras
+extra_width=>6
+# [integer] default width of extra object
+fasta_blastdb=>htg:nt
+# [databases] for sequence fastacmd lookups
+fasta_directory=>.:fastax
+# [directories] to find fasta files in
+fasta_fragsize=>400000
+# [integer] fragment size for sequences in fasta directory (assumes fractionated files with _###
+filename=>/mnt/raid/home/jab/DEMOS/parasight/
+filename_color=>grey
+# [color] of text label for filename
+filename_offset=>0
+# [integer] vertical offset of text label for filename
+filename_offset_h=>0
+# [integer] horizontal offset of text label for filename
+filename_on=>1
+# [string] designated filename/parasight name (initially defined by -in if empty)
+filename_pattern=>
+# [regular expression]  not really needed since user can just directly define the filename
+filename_size=>10
+# [integer] point size of text label for filename
+filter1_col=>
+# [integer]  column that contains data with which to filter pairwise
+filter1_max=>
+# [float] limit above which pairwise are not drawn
+filter1_min=>
+# [float] limit below which pairwise are not drawn
+filter2_col=>
+# [integer] column that contains data with which to filter pairwise
+filter2_max=>
+# [float] limit above which pairwise are not drawn
+filter2_min=>
+# [float] limit below which pairwise are not drawn
+filtere1_col=>
+# [integer]  column that contains data with which to filter extras--sequences are removed before arrange functions
+filtere1_max=>
+# [float] limit above which extras are not drawn
+filtere1_min=>
+# [float] limit below which extras are not drawn
+filtere2_col=>
+# [integer] column that contains data with which to filter extras
+filtere2_max=>
+# [float] limit above which extras are not drawn
+filtere2_min=>
+# [float] limit below which extras are not drawn
+font_size=>9
+# [integer] font size for parasight in general (not implemented)
+gif_anchor=>center
+# [center|nw|ne|sw|se|e|w|n] positioning of background gif relative to draw point gif_x and gif_y
+gif_on=>0
+# displays an appearently unprintable gif image in background
+gif_path=>file path for gif to display
+# [file path] of gif image to display in background--image does not print in postscript file
+gif_x=>0
+# [integer] background picture x coordinate position
+gif_y=>0
+# [integer] background gif y coordinate position (0 is top of screen)
+graph=>
+graph1_label_color=>blue
+# [color] for graph1 labels
+graph1_label_decimal=>1
+# [integer] number of decimal points to round graph1 labels
+graph1_label_multiplier=>1
+# [float] multiplier for graph1 labels
+graph1_label_offset=>1
+# [integer] horizontal offset for grpah1 labels
+graph1_label_on=>1
+# [0|1] toggles on labels for graph1 scale
+graph1_label_size=>10
+# [integer] point size of graph1 labels
+graph1_line_color=>blue
+# [color] for graph1 connecting line
+graph1_line_on=>1
+# [0|1] toggles graph1 connecting line off and on
+graph1_line_smooth=>0
+# [0|1] toggles on and off smoothing for connecting line
+graph1_line_width=>1
+# [integer] width for graph1 connecting line
+graph1_max=>50
+# [integer] maximum value of graph1 scale
+graph1_min=>30
+# [integer] minimum value of graph1 scale
+graph1_on=>0
+# [0|1] toggles off and on graph1
+graph1_point_fill_color=>blue
+# [color] to fill points with for graph1
+graph1_point_on=>1
+# [0|1] toggles point drawing on and off for graph1
+graph1_point_outline_color=>blue
+# [color] to outline point with for graph1
+graph1_point_outline_width=>1
+# [integer] thickness of point outline for graph1
+graph1_point_size=>2
+# [integer] pixel radius size for drawing graph1 points
+graph1_tick_color=>black
+# [color] of tick marks for graph1 scale
+graph1_tick_length=>6
+# [integer] length of tick marks for graph1 scale
+graph1_tick_offset=>1
+# [integer] horizontal offset of tick marks for graph1 scale
+graph1_tick_on=>1
+# [0|1] toggles tick marks for graph1 scale off and on
+graph1_tick_width=>3
+# [integer] thickness of tick marks for graph1 scale
+graph1_vline_color=>black
+# [color] of vertical line for graph1 scale on left
+graph1_vline_on=>1
+# [0|1} toggles on and off vertical line for graph1 scale on left
+graph1_vline_width=>2
+# [integer] vertical line width for graph1 scale on left
+graph2_label_color=>red
+# [color] of graph2 scale labels
+graph2_label_decimal=>2
+# [integer] number of decimal point to round graph2 scale label
+graph2_label_multiplier=>1
+# [float] graph2 scale label multiplier
+graph2_label_offset=>8
+# [integer] horizontal offset of graph2 scale labels
+graph2_label_on=>0
+# [0|1] toggles graph2 scale labels off and n
+graph2_label_size=>10
+# [integer] point size of graph2 scale labels
+graph2_line_color=>red
+# [color] of graph2 connecting lines
+graph2_line_on=>1
+# [0|1] toggles graph2 connecting lines off and on
+graph2_line_smooth=>0
+# [0|1] toggles graph2 connecting line smoothing off and on
+graph2_line_width=>1
+# [integer] thickness of graph2 connecting lines
+graph2_max=>1000
+# [integer] maximum value for graph2 scale
+graph2_min=>-1000
+# [integer] minimum value for graph2 scale
+graph2_on=>0
+# [0|1] toggles graph2_on
+graph2_point_fill_color=>red
+# [color] of interior of graph2 points
+graph2_point_on=>1
+# [0|1] toggles graph2 point drawing on and off
+graph2_point_outline_color=>red
+# [color] of graph2 point outline
+graph2_point_outline_width=>1
+# [integer] thickness of graph2 point outline
+graph2_point_size=>2
+# [integer] radius size of graph 2 points
+graph2_tick_color=>black
+# [color] of graph2 vertical scale ticks
+graph2_tick_length=>6
+# [integer] length of graph2 vertical scale ticks
+graph2_tick_offset=>5
+# [integer] horizontal offset of graph2 vertical scale ticks
+graph2_tick_on=>1
+# [0|1] toggles graph2 vertical scale ticks on and off
+graph2_tick_width=>3
+# [integer] thickness of graph2 vertical scale ticks
+graph2_vline_color=>black
+# [color] of graph2 vertical scale line
+graph2_vline_on=>1
+# [0|1] toggles graph2 vertical scale line off and on
+graph2_vline_width=>2
+# [integer] thickness of graph2 vertical scale line
+gscale_height=>80
+# [integer] pixel height of graph scales
+gscale_hline_color=>black
+# [color] of horizontal shared graph scale lines
+gscale_hline_on=>1
+# [0|1] toggles off and on the shared horizontal interval lines of the graph scales
+gscale_hline_width=>1
+# [integer] width of shared horizontal shared graph scale lines
+gscale_indent=>-40
+# [integer] indentation for placing gscale above (or even below) the sequence line
+gscale_interval=>4
+# [integer] number of intervals
+gscale_on=>1
+# [0|1] toggles off and on the graph scales
+help_on=>1
+# [0|1] toggles off and on the popup help messages
+help_wrap=>80
+# [integer] character line width for popup help menus
+mark_advanced=>
+# perl code for advanced marking algorithm ()
+mark_array=>m
+# [e|m] default array to search (m is alignment/e is extra)(m is historial)
+mark_col=>
+# [integer] column to search for pattern in order to mark
+mark_col2=>
+# [integer] column to search for pattern in order to mark
+mark_color=>red
+# [color] to mark objects with
+mark_pairs=>0
+# [0|1] toggles the coloring/marking of sub(jects) off and on
+mark_pattern=>AC002038
+# default pattern for mark/find button
+mark_permanent=>0
+# [0|1] toggles on and off changing the color of objects permanently
+mark_subs=>1
+# [0|1] toggles the coloring/marking of sub(jects) off and on
+pair_inter_color=>red
+# [color] default of inter pairwise and connecting lines
+pair_inter_line_on=>0
+# [0|1] toggles off and on the connecting lines between inter pairwise alignments
+pair_inter_offset=>0
+# [integer] default offset from sequence line of inter pairwise
+pair_inter_on=>1
+# [0|1] toggles off and on the inter pairwise alignments normally drawn on top of sequence line
+pair_inter_width=>13
+# [integer] width of inter pairwise
+pair_intra_color=>blue
+# [color] default of intra pairwise and connecting lines
+pair_intra_line_on=>1
+# [0|1] toggles connecting lines between  intra pairwise off and on
+pair_intra_offset=>0
+# [integer] default offset from seuqence
+pair_intra_on=>1
+# [0|1] toggles off and on the intra pairwise
+pair_intra_width=>9
+# [integer] width of intra pairwise
+pair_level=>NONE
+# [NONE|inter_over_intra|intra_over_inter] determines which pairwise type appears above the other--NONE leaves the appearance to the order of the pairwise in the table
+pair_type_col=>
+# [integer] column to determine pairwise type for sequence 1 (and sequence 2 if pair_type_col2 empty)
+pair_type_col2=>
+# [integer] column to determine pairwise type for sequence 2 in row 
+pair_type_col2_pattern=>
+# [regular expression] to extract pairwise type determing value with parentheses
+pair_type_col_pattern=>
+# [regular expression] to extract pairwise type determining value with parentheses
+pfilter1_col=>
+# [integer] column that contains data with which to prefilter pairwise--prefiltering removes pairwise before any arranging
+pfilter1_max=>
+# [float] limit above which pairwise are not drawn or arranged
+pfilter1_min=>
+# [float] limit below which pairwise are not drawn or arranged
+pfilter2_col=>
+# [integer] column that contains data with which to prefilter pairwise
+pfilter2_max=>
+# [float] limit above which pairwise are not drawn or arranged
+pfilter2_min=>
+# [float] limit below which pairwise are not drawn or arranged
+popup_format=>text
+# [text|number] determines whether column numbers or text headers are shown in popup window
+popup_max_len=>300
+# [integer] character length for fields in the popup menu (allows long definitions or sequences be excluded)
+precode=>unlink "tmppara.align"; unlink "tmppara.extras";
+print_page_height=>5.5i
+# [special] page height in inches for printer (currently active Perl Tk bug???)
+print_page_orientation=>1
+# [0|1] toggles printer page orientation (1=landscape 0=portriat)
+print_page_width=>8i
+# [special] page width in inches for printer (currently inactive PerlTk bug???)
+print_pages_deep=>1
+# [integer] height in number of pages for the print/postscript all command
+print_pages_wide=>1
+# [integer] width in number of pages for print/postscript all command
+printer_name=>Rainbow
+# [string] name of the default printer (printing to printer works currently in Unix only)
+quick_color=>purple
+# [color] for the quick color function Shift-Button3 and Shift-Double Click Button3
+screen_bpwidth=>188378
+# [integer] number of base pairs the width of screen represents after indentations
+screen_indent_l=>80
+# [integer] pixel left-side screen indentation from window boundary
+screen_indent_r=>30
+# [integer] pixel right-side screen indentation from window boundary
+screen_indent_t=>40
+# [integer] pixel indentation from top of screen before drawing sequence lines (does not take into account graphs or extras)
+seq_color=>black
+# [color] of sequence
+seq_names_color=>darkgrey
+# [color] of sequence name text
+seq_names_offset=>-7
+# [integer] vertical offset of sequence names
+seq_names_offset_h=>0
+# [integer] horizontal offset of sequence names
+seq_names_on=>1
+# [0|1] toggles off and on the sequence names
+seq_names_pattern=>
+# [regular expression] to match in sequence name
+seq_names_size=>15
+# [integer] font size (in points) for sequence names
+seq_space_btwn=>10000
+# [integer] bases to separate sequences within the same line
+seq_space_paragraph=>250
+# [integer] the pixel amount separating different sequence lines
+seq_space_wrap=>200
+# [integer] pixels to wrap a continous line of sequence
+seq_tick_b_color=>black
+# [color] for begin tick marks
+seq_tick_b_label_anchor=>ne
+# [center|n|w|s|e|nw|ne|sw|se] anchor point for begin tick mark labels
+seq_tick_b_label_color=>black
+# [valid color] of begin tick mark label
+seq_tick_b_label_multiplier=>0.001
+# [float] scaling factor for begin tick mark labels
+seq_tick_b_label_offset=>2
+# [integer] vertical offset for begin tick mark label
+seq_tick_b_label_offset_h=>0
+# [integer] horizontal offset for begin tick mark labels
+seq_tick_b_label_on=>1
+# [0|1] toggles  off and on the beginning tick mark labels
+seq_tick_b_label_size=>9
+# [integer] font sie (in points) for label
+seq_tick_b_length=>10
+# [integer] length of begin tick marks
+seq_tick_b_offset=>0
+# [integer] vertical offset for begin tick marks
+seq_tick_b_on=>1
+# [0|1] toggles off and on the begin tick marks
+seq_tick_b_width=>2
+# [integer] width of begin tick marks
+seq_tick_bp=>10000
+# [integer] tick mark interval
+seq_tick_color=>black
+# [color] of interval tick marks
+seq_tick_e_color=>black
+# [valid color] for end tick marks
+seq_tick_e_label_anchor=>nw
+# [center|n|w|s|e|nw|ne|se|sw] anchor point for end tick mark labels
+seq_tick_e_label_color=>black
+# [valid color] for end tick mark labels
+seq_tick_e_label_multiplier=>0.001
+# [float] scaling factor for end tick mark labels
+seq_tick_e_label_offset=>-4
+# [integer] vertical offset for end tick mark labels
+seq_tick_e_label_offset_h=>12
+# [integer] horizontal offset for end tick mark labels
+seq_tick_e_label_on=>1
+# [0|1] toggles end tick labels off and on
+seq_tick_e_label_size=>11
+# [integer] font size (in points)  for end tick mark labels
+seq_tick_e_length=>1
+# [integer] length of end tick marks
+seq_tick_e_offset=>0
+# [integer] vertical offset for ending tick marks
+seq_tick_e_on=>1
+# [0|1] toggles off and on the ending tick marks
+seq_tick_e_width=>2
+# [integer] width of end tick marks
+seq_tick_label_anchor=>n
+# [center|n|s|w|e|nw|sw|ne|se] anchor of text from tick mark draw point
+seq_tick_label_color=>black
+# [color] for interval tick mark
+seq_tick_label_multiplier=>0.001
+# [float] scaling factor for the interval tick label
+seq_tick_label_offset=>2
+# [integer] vertical offset of sequence interval tick mark labels
+seq_tick_label_on=>1
+# [0|1] toggles off and on the interval tick labels
+seq_tick_label_size=>9
+# [integer] font size (in points) for interval tick mark label
+seq_tick_length=>10
+# [integer] length of interval tick marks
+seq_tick_offset=>0
+# [integer] vertical offset for interval tick marks
+seq_tick_on=>1
+# [0|1] toggles off and on the interval sequence tick marks
+seq_tick_whole=>1
+# [0|1] toggles whether numbering is for each accession (0) or across multiple accession on same line (1)
+seq_tick_width=>2
+# [integer] width of interval tick marks
+seq_width=>3
+# [integer] width of sequence line
+showqueryonly=>0
+# [0|1] toggles the display of justt the first sequence in a pairwise data row--usual blast query position
+sscale_categoric_string=>
+# [string] list of comma delimited category names
+sscale_col=>
+# [integer] column for value to arranging pairwise hit on sub scale
+sscale_col2=>
+# [integer] column for second position sequence in alignment pairwise (iif defined)
+sscale_col2_pattern=>
+# [regular expression] pattern to match in column 2
+sscale_col_pattern=>
+# [regular expression] pattern to match in column
+sscale_hline_color=>grey
+# [valid color] for horizontal sub scale lines
+sscale_hline_on=>1
+# [0|1] toggles off and on the horizontal scale lines for sub scale
+sscale_hline_width=>1
+# [integer] width of horizontal sub scale lines
+sscale_label_color=>black
+# [color] for sub scale axis label
+sscale_label_multiplier=>100
+# [integer] multiplication factor for sub scale label
+sscale_label_offset=>1
+# [integer] horizontal offset for sub scale axis tick marks
+sscale_label_on=>1
+# [0|1] toggles off and on sub scale axis tick mark labels
+sscale_label_pattern=>
+# [regular expression] pattern to match in sub scale label
+sscale_label_size=>12
+# [integer] font size (in points) for subj scale axis label
+sscale_lines=>10
+# [integer] number of lines or interval steps to plot for stagger or cscale
+sscale_max=>1
+# [float] maximum value to place on the sub scale
+sscale_min=>0.8
+# [float] minimum value to place on the sub scale
+sscale_on=>0
+# [0|1] toggles sub(ject) scale on and off
+sscale_step=>0.01
+# [float] value to increment between each step
+sscale_tick_color=>black
+# [color] for sub scale axis tick marks
+sscale_tick_length=>9
+# [integer] length of sub axis tick marks
+sscale_tick_offset=>4
+# [integer] offset of sub scale axis tick marks
+sscale_tick_on=>1
+# [0|1] toggles off and on the sub scale axis at horizontal tick positions
+sscale_tick_width=>3
+# [integer] width of sub scale axis tick marks
+sscale_vline_color=>black
+# [color] for vertical axis line of sub scale
+sscale_vline_offset=>-5
+# [integer] horizontal offset for subject axis line
+sscale_vline_on=>1
+# [0|1] toggles off and on the vertical axis line for sub scale
+sscale_vline_width=>2
+# [integer] width of sub scale axis line
+sub_arrow_diag=>5
+# [integer] distance between arrow point to wing of arrow
+sub_arrow_on=>0
+# [0|1] toggles off and on the directional/orientation arrows for subjects
+sub_arrow_paral=>5
+# [integer]  distance between arrow point to base of arrow
+sub_arrow_perp=>4
+# [integer] distance from base end to wing tip of arrow 
+sub_color=>lightgreen
+# [color] default of sub objects
+sub_initoffset=>30
+# [integer] pixel indent from top of sscales to associated sequence line
+sub_labelhit_col=>13
+# [integer] column to use for labelling each hit
+sub_labelhit_color=>black
+# color of pairwise hit label text
+sub_labelhit_offset=>0
+# [integer] horizontal offset for hit label
+sub_labelhit_on=>0
+# [0|1] turns on individual labeling of each pairwise hit
+sub_labelhit_pattern=>0?([0-9.]{4})
+# [regular expression] to match in data from column
+sub_labelhit_size=>9
+# [integer] font size (in points) for hit label
+sub_labelseq_col=>0
+# [integer] column to use for the beginning sub label
+sub_labelseq_col2=>4
+# [integer] column for second position sequence in alignment table pairwise row
+sub_labelseq_col2_pattern=>
+# [regular expression] pattern to match in data from sub label sequence column 2
+sub_labelseq_col_pattern=>
+# [regular expression] pattern to match in data from sub label sequence column
+sub_labelseq_color=>black
+# [color] of text label for sub objects
+sub_labelseq_offset=>0
+# [integer] horizontal offset label
+sub_labelseq_on=>1
+# [0|1] toggles overall begin sequence label for sub(ject) label off and on
+sub_labelseq_size=>6
+# [integer] font size (in points) for begin label sequence
+sub_labelseqe_col=>4
+# [integer] column to use for the end subject label
+sub_labelseqe_col2=>0
+# [integer] column for second position in alignment table pairwise row
+sub_labelseqe_col2_pattern=>
+# [regular expression] pattern to match in data from column
+sub_labelseqe_col_pattern=>
+# [regular expression] pattern to match in data from column
+sub_labelseqe_color=>black
+# [valid color] of label text
+sub_labelseqe_offset=>0
+# [integer] horizontal offset for label
+sub_labelseqe_on=>0
+# [0|1] toggles off and on the overall sub(ject) label at end of last hit/pairwise
+sub_labelseqe_size=>6
+# [integer] font size (in points) for end subject label
+sub_on=>0
+# [0|1] toggles sub(ject) display off and on
+sub_space=>9
+# [integer] line width spacing between sub objects
+sub_width=>8
+# [integer] default width of sub objects
+template_desc_on=>1
+# [0|1] toggles off and on the descriptions saved in a template file
+text_anchor=>nw
+# [center|n|w|s|e|nw|ne|se|sw] anchor point for end tick mark labels
+text_color=>red
+# [color] for end tick mark labels
+text_offset=>0
+# [integer] vertical offset for end tick mark labels
+text_offset_h=>0
+# [integer] horizontal offset for end tick mark labels
+text_on=>1
+# [0|1] toggles end tick labels off and on
+text_size=>20
+# [integer] font size (in points)  for end tick mark labels
+text_text=>
+# [text] to display above the parasight view
+window_height=>400
+# [integer] pixel height of main window on initial start up
+window_width=>700
+# [integer] pixel width of the main window on initial start up

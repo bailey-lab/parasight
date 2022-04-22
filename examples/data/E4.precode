@@ -1,0 +1,13 @@
+
+	sleep 4; 
+	$opt{"text_offset"}=290;
+	$opt{"text_offset_h"}=15;
+	$opt{"text_color"}="red";	
+	$opt{"text_fontsize"}=12;	
+	$opt{"text_text"}= "These are a high copy repeats / transposable elements from RepeatMasker.\nThey are broken down based on class.\nThe formatting is found mainly in the input file E2.extra.\nTry left clicking on repeats to see the popup information regarding them.\n";
+	$opt{"text_text"}.= "SINEs are blue. LINEs are purple.\nSimple and Low Complexity Repeats are red. LTR are aqua. MaLRs are salmon.\n";
+	$opt{"text_text"}.= "\nUse Control Left and Right Click to Zoom in and out\n";
+
+	&reshowNredraw; &update; print "EXAMPLE COMPLETED!\n";
+	sleep 5; #sleep to pause before going to next example
+	

@@ -1,0 +1,21 @@
+
+	$opt{"filename_on"}=0;
+	$opt{"seq_line_spacing_btwn"}=120;
+	$opt{"text_offset"}=270;
+	$opt{"text_offset_h"}=50;
+	$opt{"text_color"}="red";	
+	$opt{"text_fontsize"}=13;	
+	$opt{"execute2_desc"}="show alignment file";
+	$opt{"execute2"}='nedit $c[15]';
+	#switch program to notepad for win32
+	print "THE OS IS ($^O)\n";
+	if ($^O =~/MSWin32/) {
+		$opt{"execute2"}='notepad $c[15]';	
+	}
+	$opt{"text_text"}= "This is an example with sequence and alignment retrieval.\nTry right clicking on the alignments to choose to retrieve\nthe alignment or the sequence underlying it.\n";
+	$opt{"sub_on"}=0;
+	$opt{"seq_space_paragraph"}=70;
+	$opt{"pair_intra_line_on"}=1;
+	&reshowNredraw; &update; print "EXAMPLE COMPLETE!\n";
+	sleep 5;
+	

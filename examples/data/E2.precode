@@ -1,0 +1,18 @@
+	
+sleep 3; 
+$opt{"text_offset"}=240;
+$opt{"text_offset_h"}=60;
+$opt{"text_color"}="red";	
+$opt{"text_fontsize"}=12;	
+$opt{'showsub'}='AC016033.10:AC073446.16:AC027267.3:AC135344.2:AC13584.2';
+$opt{"text_text"}= "Now showing part of the blast output for 4 BACs that were matched.\n";
+$opt{"text_text"}.="Each sub line represents a different BAC..\n";
+$opt{"text_text"}.="Colors of each alignment represent degree of similarity.\n";
+$opt{"text_text"}.="Click on the sub or repeats to get information about each feature\n";
+$opt{"text_text"}.="Hold down control and left and right clicking to zoom in and out\n";
+$opt{"text_text"}.="Right click on  any feature for futher information.\n";
+
+&reshowNredraw; &update; print "EXAMPLE COMPLETE!\n";
+sleep 5;
+
+

@@ -1,0 +1,191 @@
+	
+	sleep 1; 
+	$opt{"showseq"}="S001";
+	$opt{"filename_on"}=0;
+	$opt{"text_text"}="Welcome\nto\nparasight!";
+	$opt{"text_offset"}=140;
+	$opt{"text_offset_h"}=60;
+	$opt{"text_fontsize"}=50;
+	&reshowNredraw; &update; 
+	sleep 2; 
+	&reshowNredraw; &update; 
+	sleep 1;
+	
+	$opt{"text_fontsize"}=16;
+	$opt{"text_text"}="The tutorial pauses to allow for varied paces.\nWhen you see the text PAUSED, you must press return\nin the COMMAND LINE/TELNET window.\n\nPress return now to continue.\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>; 
+	
+	$opt{"text_offset_h"}=10;
+	$opt{"text_text"}="This tutorial (example #1) will step you\nsome basic parasight views.\n\n(PAUSED)";
+	$opt{"text_fontsize"}=15;
+	&reshowNredraw; &update; my $pause=<STDIN>;
+	
+	$opt{"text_text"}="This example demonstrates the manipulation of sequences\nand pairwise alignments for which parasight was designed.\n\n(PAUSED)";
+	&reshowNredraw; &update; my $pause=<STDIN>;
+		
+	$opt{"seq_tick_on"}=0;
+	$opt{"seq_tick_b_on"}=0;
+	$opt{"seq_tick_e_on"}=0;
+	$opt{"pair_inter_on"}=0;
+	$opt{"pair_intra_on"}=0;
+	$opt{"sub_on"}=0;
+	$opt{"showseq"}="S001:";
+	$opt{"text_text"}="The most basic drawable parasight view is simply a sequence\nof a certain length.\n\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>; 
+	
+	$opt{"seq_tick_on"}=1;
+	$opt{"seq_tick_b_on"}=1;
+	$opt{"seq_tick_e_on"}=0;
+	$opt{"seq_tick_label_multiplier"}=1;
+	$opt{"seq_tick_e_label_fontsize"}=12;
+	$opt{"text_text"}="To a sequence, tick marks and labels can be added for bp.\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>; 
+
+	$opt{"seq_tick_label_multiplier"}=0.001;
+	$opt{"seq_tick_e_label_fontsize"}=12;
+	$opt{"text_text"}="The label can be scaled.\nNow the label values are in kb.\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>; 
+	
+	$opt{"showseq"}="ALL";
+	$opt{"text_offset"}=100;
+	$opt{"seq_color"}="brown";
+	$opt{"seq_width"}=5;
+	$opt{"seq_tick_whole"}=0;
+	$opt{"text_text"}="Multiple sequences can be drawn.\nAnd particular subsets of sequences (-showseq)\nand and arrangments (-arrangeseq) can be given. \nHere 'ALL' sequences are arranged 'oneperline'.\nThe color and thickness of the sequence lines were also modified.\n\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>; 
+	
+	
+	$opt{"seq_tick_whole"}=0;
+	$opt{"text_offset"}=280;	
+	$opt{"arrangeseq"}="sameline" ;
+	$opt{"text_text"}="Here 'ALL' sequences are arranged on the 'sameline'.\nLong sequence lines wrap just like sentences in a paragraph.\nExact positions can also be provided from a file\nfor complicated arrangements.\n\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+
+	$opt{"seq_tick_whole"}=1;
+	$opt{"text_text"}="The numbering can be change to show\nthe position within the line.\n\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>; 
+
+	$opt{"seq_spacing_btwn_sequences"}=1;
+	$opt{"text_text"}="The spacing between sequences is now zero\nso that the positon in the line represents\nthe total length of sequence.\n\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>; 
+	
+	$opt{"seq_tick_whole"}=0;
+	$opt{"seq_tick_bp"}=10000;
+	$opt{"seq_spacing_btwn_sequences"}=20000;
+	$opt{"text_text"}="Here the tick marks restart for each individual sequence.\nThe intervening spacing between sequences is at 20 kb.\nThe spacing between tick marks is now 10 kb.\n\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	
+	$opt{"text_offset"}=280;	
+	$opt{"arrangeseq"}="sameline" ;
+	$opt{"seq_color"}="purple";
+	$opt{"seq_width"}=2;
+	$opt{"seq_tick_bp"}=20000;
+	$opt{"seq_label_color"}="orange";
+	$opt{"seq_tick_label_color"}="blue";
+	$opt{"seq_tick_e_label_color"}="red";
+	$opt{"seq_tick_e_on"}=1;
+	$opt{"seq_tick_e_color"}="red";
+	$opt{"seq_tick_b_label_color"}="green";
+	$opt{"seq_tick_b_color"}="green";
+	$opt{"seq_tick_label_fontsize"}=20;
+	$opt{"text_text"}="Most parasight drawing objects can be formatted\nfor size color and position\n\nAs you can see there are 3 types of tick marks:\nbegin ticks (green), interval ticks (blue), and end ticks (red)\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+
+	$opt{"text_offset"}=280;
+	$opt{"arrangeseq"}="sameline" ;
+	$opt{"seq_color"}="black";
+	$opt{"seq_width"}=3;
+	$opt{"seq_label_color"}="black";
+	$opt{"seq_tick_label_color"}="black";
+	$opt{"seq_tick_b_on"}=1;	
+	$opt{"seq_tick_b_label_color"}="black";
+	$opt{"seq_tick_b_color"}="black";
+	$opt{"seq_tick_e_on"}=0;
+	$opt{"seq_tick_label_fontsize"}=12;
+	$opt{"text_text"}="Back to a less vibrant layout\nAnd on to pairwise alignments.(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"pair_intra_on"}=1;
+	$opt{"pair_inter_on"}=1;
+	$opt{"text_text"}="The basic representation (pair) of a pairwise alignment\nis drawn by default on top of the sequence lines\nThese blocks represent regions similarity to other sequences.\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"pair_intra_line_on"}=1;
+	$opt{"pair_inter_line_on"}=1;
+	$opt{"text_text"}="Lines can be added to connect the begin and end of each pairwise.\n\nThere are two types of pairwise: inter (red) and intra (blue).\nThe default definition is intra-canvas and inter-canvas\nIn this case all sequences are shown on the canvas\nand therefore all are designated intra pairwise (blue)\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	
+	$opt{"pair_level"}="intra_over_inter";
+	$opt{"showseq"} = "S001:S004:";
+	$opt{"text_offset"}=180;
+	$opt{"text_text"}="Here only sequences S001 and S004 are drawn\nNow you can see some red inter pairwise to\nthe other sequences that were not drawn\nInter and intra can be defined other more biological ways\nsuch as between chromosomes.\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"showseq"} = "S001:";
+	$opt{"text_text"}="Here only S001 is drawn.\nThus, only the internal S001 sequence hits are blue.\nAll of the hits to other sequences are\nnow red (inter-picture).\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	
+	$opt{"showseq"} = "S001,,35000,140000:";
+	$opt{"text_text"}="As an aside you can use -showseq to draw only part of a sequence,\nwhich is particularly useful for 'detailing' whole chromosomes\n(PAUSED)";
+	
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"showseq"}="S001:";
+	$opt{"sub_on"}=1;
+	$opt{"arrangesub"}="oneperline";
+	$opt{"text_text"}="Subs are drawn from the perspective of a given sequence.\nSubs get their name both because they are usually drawn below the sequence\nand because they often represent the subjects of a blast search\n\nHere the subs are arranged 'oneperline' based on their\nsequence of origin using -arrangesub option.\n(PAUSED)";
+	
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"colorsub"}="hitrandom";
+	$opt{"text_text"}="Subs can be differentially colored.\nHere each hit is randomly colored with '-colorsub hitrandom'\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"colorsub"}="RESET";
+	&reshowNredraw; 
+	
+	$opt{"colorsub"}="seqrandom";
+	$opt{"text_text"}="Subs can be colored randomly based on the sequence name\nusing '-colorsub seqrandom'.\nConditional coloring is also available allowing different colors\nfor such things as percent similarity (or any \nother column data).\n(PAUSED)";
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	
+	$opt{"arrangesub"}="stagger";
+	$opt{"arrangesub_stagger_spacing"}=10000;
+	$opt{"text_text"}="Subs can be arranged in a stagger\nusing '-arrangesub stagger'.\n(PAUSED)"
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	
+	$opt{"sub_labelseq_on"}=0;
+	$opt{"arrangesub"}="subscaleN";
+	$opt{"sub_scale_col"}=24;
+	$opt{"sub_scale_min"}=0.95;
+	$opt{"text_text"}="Subs can arranged based on a numerical values from any column\nThe option is -arrangesub subscaleN.\nHere the similarity is used for the scale.(PAUSED)"		;
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"sub_scale_on"}=1;
+	$opt{"text_text"}="Scales can be added for the similarity.\n(PAUSED)"		;
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	
+	$opt{"sub_scale_min"}=0;
+	$opt{"sub_scale_max"}=200000;
+	$opt{"sub_scale_col"}=1;
+	$opt{"sub_scale_step"}=25000;
+	$opt{"sub_scale_label_multiplier"}=1;
+	$opt{"text_text"}="Any numerical values can be used.\nHere the begin position on S001 is used.\nNot a very useful view but it shows  parasight's flexibility.\n(PAUSED)"		;
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"sub_scale_categoric_string"}="UNKN,BAD,OK,GOOD,EXCELLENT";
+	$opt{"arrangesub"}="subscaleC";
+		$opt{"sub_line_spacing"}=12;
+		$opt{"sub_scale_max"}=0;
+		$opt{"sub_scale_min"}=4;
+		$opt{"sub_scale_lines"}=4;
+		$opt{"sub_scale_step"}=-1;
+		$opt{"sub_scale_col"}=15;
+	$opt{"text_text"}="Here a categorical scale is drawn.\nEach cagtegory is specifically designated.\n\nCategorical scales are one of the harder things to set up!\nFiddling with the settings of a scale example is probably\nthe best way to learn them.\n(PAUSED)"		;
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"showseq"}="S001:S002:";
+	$opt{"text_text"}="With subs we are not limited to any one sequence at a time!\nHere are S001 and S002\n(PAUSED)"		;
+	&reshowNredraw; &update; print "PAUSED\n"; my $pause=<STDIN>;
+	$opt{"text_offset"}=-80;
+	$opt{"showseq"}="ALL";
+	$opt{"text_text"}="Here are all of the sequences\nPerhaps too much information.\nStarting to get complicated."		;
+	&reshowNredraw; &update; print "EXAMPLE COMPLETE!\n";
+	my $pause=<STDIN>;
+	$opt{"text_text"}="This tutorial has ended.\nAll the options to make the changes you have seen\nare available by pressing the option button\nwhich I just did for you.\nThe options are arrange in categories.\nLingering over the input region of an option will\nbring up descriptions of the options.\nTo implement an option press the redraw buttons:\n(blue) and (white) at the right."	
+	&indexcard_options();
+	&reshowNredraw; &update; print "EXAMPLE COMPLETE!\n";
+	sleep 5;
+
+
+	
